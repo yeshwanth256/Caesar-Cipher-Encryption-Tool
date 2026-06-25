@@ -1,0 +1,8 @@
+{
+  "name": "Caesar Cipher & Encryption Tool",
+  "description": "An interactive, educational cryptography suite featuring classical and modern ciphers, visual transformation analysis, frequency calculations, a password security center, and an encrypted real-time security logs dashboard.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
