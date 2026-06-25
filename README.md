@@ -1,20 +1,56 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# Caesar Cipher & Encryption Tool
 
-# Run and deploy your AI Studio app
+An interactive, educational cryptography suite featuring classical and modern ciphers, visual transformation analysis, frequency calculations, a password security center, and an encrypted real-time security logs dashboard.
 
-This contains everything you need to run your app locally.
+## Key Features
 
-View your app in AI Studio: https://ai.studio/apps/ed29af2e-4227-407c-889b-8f51d9b039c4
+- **Classical Cipher Laboratory**: Fully interactive Caesar and Vigenère cipher engines. Real-time step-by-step visual character-shift maps.
+- **Modern Symmetric & Asymmetric Encryption**: Real-time simulation of AES, DES, and RSA workflows, mapping key derivation, block padding, and mathematical modulus relations.
+- **Visual Transformation Analysis**: Live character frequency histograms comparing plaintext against ciphertext to visually demonstrate diffusion and confusion.
+- **Interactive Cryptanalysis Exercises**: Solve cryptography challenges to test your decryption skills.
+- **Password Security Hub**: Advanced entropy calculator checking complexity, length, dictionary-strength analysis, and estimating brute-force cracking resistance.
+- **Live Security Logs Dashboard**: High-fidelity logs reflecting simulated system breaches, failed handshakes, block cipher audits, and threat containment events.
 
-## Run Locally
+## Tech Stack
 
-**Prerequisites:**  Node.js
+- **Frontend**: React with TypeScript, Vite
+- **Styling**: Tailwind CSS
+- **Animations**: Framer Motion
+- **Iconography**: Lucide React
 
+## Getting Started
+
+### Prerequisites
+
+- Node.js (v18 or higher recommended)
+- npm or yarn
+
+### Installation
 
 1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+   ```bash
+   npm install
+   ```
+
+2. Start the development server:
+   ```bash
+   npm run dev
+   ```
+
+3. Open the browser and navigate to `http://localhost:3000` to interact with the suite.
+
+### Build and Deployment
+
+To compile the application for production, run:
+```bash
+npm run build
+```
+
+The production assets will be generated in the `dist` directory. To start the production server:
+```bash
+npm run start
+```
+
+## License
+
+This project is licensed under the MIT License.
